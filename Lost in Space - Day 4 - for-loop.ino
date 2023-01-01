@@ -15,7 +15,7 @@ int dip[3] = {10, 11, 12}; // DIP switches on pin 10, 11 & 12
 void setup() {
   // In our setup function, we can use a for-loop to iterate over each element...
   // 'int i' is our iterator variable. The parentheses say, "'i' is 0. if 'i' is less than 0, perform the loop & add 1."
-  // The loop will contiunue this pattern until 'i' is no longer less than 0.
+  // The loop will contiunue this pattern until 'i' is no longer less than 3.
   for (int i = 0; i < 3; i++) { 
 
     // Inside our loop, we can establish pinmode configurations.
