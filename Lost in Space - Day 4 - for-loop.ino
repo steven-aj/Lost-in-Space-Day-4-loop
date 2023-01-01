@@ -20,7 +20,7 @@ void setup() {
 
     // Inside our loop, we can establish pinmode configurations.
     pinMode(led[i], OUTPUT); // This will run once per iteration
-    pinMode(dip[i], INPUT);  // So wil this!
+    pinMode(dip[i], INPUT);  // So will this!
 
     /*
       By using 'i' as in 'led[i]' & 'dip[i]', we are referencing the index of the array.
