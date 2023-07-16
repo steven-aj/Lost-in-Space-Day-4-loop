@@ -7,7 +7,7 @@ int dip[3] = {10, 11, 12}; // DIP switches on pin 10, 11 & 12
 
 /* 
   An array is like a list, and it works like this:
-    - 'int led[3]' means we are identifying an array that will have 3 elements within it
+    - 'int led[3]' means we are declaring an array that will have 3 elements within it
     - '{2, 3, 4}' means that our array will contain the elements of '2', '3' & '4'.  
   NOTE: Elements of an array also have an 'index' that automatically gets assigned to them. Let's see how that works below.
 */
